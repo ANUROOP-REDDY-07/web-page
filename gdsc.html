@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>E-Commerce Platform</title>
+  <link rel="stylesheet" href="gdsc.css">
+</head>
+<body>
+  <header>
+    <h1>E-Commerce Platform</h1>
+  </header>
+
+  <section id="products-section" class="products">
+    <!-- Products will be loaded here dynamically -->
+  </section>
+
+  <section class="cart">
+    <h2>Cart</h2>
+    <div id="cart-items"></div>
+    <div class="price-details">
+      <h3>Price Details</h3>
+      <p>Total MRP: <span id="total-mrp">₹0</span></p>
+      <p>Coupon Discount: <span>₹50</span></p>
+      <p>Platform Fee: <span>₹10</span></p>
+      <p>Shipping Charges: <span>₹20</span></p>
+      <p>Total Amount: <span id="total-amount">₹0</span></p>
+      <button onclick="placeOrder()">Place Order</button>
+    </div>
+  </section>
+
+  <script src="gdsc.js"></script>
+</body>
+</html>
